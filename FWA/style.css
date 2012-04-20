@@ -1,0 +1,97 @@
+body {
+	background: #004121;
+	margin: 0;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+#bottomContent {
+	background-color: #787846;
+	height: 550px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.mainContainer {
+	background-image: url(images/greenglow.jpg);
+	background-repeat: no-repeat;
+	background-position: -8px 0px;
+}
+
+.clear {
+	clear: both;
+}
+
+.buttonContainer {
+	margin-left: 40px;
+}
+
+.button {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	.button a {
+		display: block;
+		text-decoration: none;
+		color: #fff;
+		position: relative;
+	}
+.logo {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bottomContentWrapper {
+	background:url(images/bottomcontentbg.jpg);
+	height: 550px;
+	background-repeat: no-repeat;
+}
+
+.bottomContentWrapper p {
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+p.footerText {
+	width: 500px; 
+	text-align: center; 
+	margin-top: 25px;
+}
+
+#featured {
+	box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.51);
+	-webkit-box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.51);
+	height: 453px;
+}
+
+.tab_content {
+	height: 453px;
+	width: 1200px;
+	position: relative;
+	color: #363636;
+}
+	#fwa {
+		background-image: url(images/freedomwealthslide.jpg);
+	}
+		.fwaText {
+			position: absolute;
+			left: 145px;
+			top: 210px;
+			width: 500px;
+			line-height: 20px;
+		}
+		.fwaVisit {
+			position: absolute;
+			top: 375px;
+			left: 570px;
+		}
