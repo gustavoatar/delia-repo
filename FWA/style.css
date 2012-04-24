@@ -40,6 +40,9 @@ h2 {
 		color: #fff;
 		position: relative;
 	}
+	.active {
+		opacity: .75;
+	}
 .logo {
 	text-align: center;
 	margin-top: 50px;
