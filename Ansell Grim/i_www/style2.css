@@ -12,12 +12,12 @@ ul {
 	margin: 0;
 }
 
-#container {
+ul#container {
 	width: 940px;
-	height: 380px;
+	height: 340px;
 	margin: 0 auto;
-	text-align: center;
 	position: relative;
+	padding: 0;
 }
 
 
@@ -25,13 +25,3 @@ ul {
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
-
-.am-wrapper{
-	float:left;
-	position:relative;
-	overflow:hidden;
-}
-.am-wrapper img{
-	position:absolute;
-	outline:none;
-}

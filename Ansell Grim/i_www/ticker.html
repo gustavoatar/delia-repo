@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>Horizontal scroller</title>
+<style type="text/css">
+/*#scroller {
+	height:100%;
+	margin:0;
+	padding:0;
+	line-height:30px;
+	position:relative;
+	width: 940px;
+}
+#scroller li {
+	padding:0 0 0 0px;
+	list-style: none;
+	margin: 0;
+}
+	#scroller li img {
+		border: 5px solid #fff;
+		position: absolute;
+	}
+#scrollerWrapper {
+	height:397px;
+	overflow:hidden;
+	background:#F2F2F2;
+	width: 940px;
+}*/
+#scroller li img {
+	border: 5px solid #000;
+/*	position: absolute;*/
+}
+
+</style>
+<link rel="stylesheet" href="css/jquery.simplyscroll.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.simplyscroll.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	(function($) {
+		$(function() { //on DOM ready
+			$("#scroller").simplyScroll({
+	        	auto: true,
+				speed: 15
+			});
+		});
+	})(jQuery);
+</script>
+</script>
+</head>
+<body>
+	<div id="scrollerWrapper">
+		
+		<ul id="scroller">
+			<li style="left: 0; top: 0;"><img src="ticker-images/194x123.jpg" alt="" /></li>
+			<li style="left: -204px; bottom: -133px;"><img src="ticker-images/358x255.jpg" alt="" /></li>
+			<li style="left: -368px; top: 0;"><img src="ticker-images/154x123.jpg" alt="" /></li>
+			<li style="left: -368px; top: 0;"><img src="ticker-images/183x246.jpg" alt="" /></li>
+			<li style="left: -561px; bottom: -256px;"><img src="ticker-images/183x132.jpg" alt="" /></li>
+			<li style="left: -561px; top: 0;"><img src="ticker-images/286x123.jpg" alt="" /></li>
+			<li style="left: -857px; top: 133px;"><img src="ticker-images/138x115.jpg" alt="" /></li>
+			<li style="left: -1005px; top: 258px;"><img src="ticker-images/138x132.jpg" alt="" /></li>
+			<li style="left: -1006px; top: 133px;"><img src="ticker-images/139x256.jpg" alt="" /></li>
+			<li style="left: -1006px; top: 0;"><img src="ticker-images/476x246.jpg" alt="" /></li>
+			<li style="left: -1492px; bottom: -256px;"><img src="ticker-images/140x132.jpg" alt="" /></li>
+			<li style="left: -1492px; bottom: -256px;"><img src="ticker-images/202x132.jpg" alt="" /></li>
+			<li style="left: -1494px; bottom: -256px;"><img src="ticker-images/116x132.jpg" alt="" /></li>
+			<li style="left: -1494px; top: 0;"><img src="ticker-images/183x123.jpg" alt="" /></li>
+			<li style="left: -1687px; bottom: -133px;"><img src="ticker-images/183x255.jpg" alt="" />
+		</ul>
+	</div>	
+
+</body>
+</html>
+<!--<li style="left: 0; top: 0;"><img src="ticker-images/194x123.jpg" alt="" /></li>
+<li style="left: -204px; bottom: -133px;"><img src="ticker-images/358x255.jpg" alt="" /></li>
+<li style="left: -368px; top: 0;"><img src="ticker-images/154x123.jpg" alt="" /></li>
+<li style="left: -368px; top: 0;"><img src="ticker-images/183x246.jpg" alt="" /></li>
+<li style="left: -561px; bottom: -256px;"><img src="ticker-images/183x132.jpg" alt="" /></li>
+<li style="left: -561px; top: 0;"><img src="ticker-images/286x123.jpg" alt="" /></li>
+<li style="left: -857px; top: 133px;"><img src="ticker-images/138x115.jpg" alt="" /></li>
+<li style="left: -1005px; top: 258px;"><img src="ticker-images/138x132.jpg" alt="" /></li>
+<li style="left: -1006px; top: 133px;"><img src="ticker-images/139x256.jpg" alt="" /></li>
+<li style="left: -1006px; top: 0;"><img src="ticker-images/476x246.jpg" alt="" /></li>
+<li style="left: -1492px; bottom: -256px;"><img src="ticker-images/140x132.jpg" alt="" /></li>
+<li style="left: -1492px; bottom: -256px;"><img src="ticker-images/202x132.jpg" alt="" /></li>
+<li style="left: -1494px; bottom: -256px;"><img src="ticker-images/116x132.jpg" alt="" /></li>
+<li style="left: -1494px; top: 0;"><img src="ticker-images/183x123.jpg" alt="" /></li>
+<li style="left: -1687px; bottom: -133px;"><img src="ticker-images/183x255.jpg" alt="" /></li>-->
+<!--<li><img src="ticker-images/194x123.jpg" alt="" /></li>
+<li><img src="ticker-images/358x255.jpg" alt="" /></li>
+<li><img src="ticker-images/154x123.jpg" alt="" /></li>
+<li><img src="ticker-images/183x246.jpg" alt="" /></li>
+<li><img src="ticker-images/183x132.jpg" alt="" /></li>
+<li><img src="ticker-images/286x123.jpg" alt="" /></li>
+<li><img src="ticker-images/138x115.jpg" alt="" /></li>
+<li><img src="ticker-images/138x132.jpg" alt="" /></li>
+<li><img src="ticker-images/139x256.jpg" alt="" /></li>
+<li><img src="ticker-images/476x246.jpg" alt="" /></li>
+<li><img src="ticker-images/140x132.jpg" alt="" /></li>
+<li><img src="ticker-images/202x132.jpg" alt="" /></li>
+<li><img src="ticker-images/116x132.jpg" alt="" /></li>
+<li><img src="ticker-images/183x123.jpg" alt="" /></li>
+<li><img src="ticker-images/183x255.jpg" alt="" /></li>-->
+	<!--<li><img style="left: 0; top: 0;" src="ticker-images/194x123.jpg" alt="" /></li>
+	<li><img style="left: 0; bottom: 0px;" src="ticker-images/358x255.jpg" alt="" /></li>
+	<li><img style="left: 204px; top: 0;" src="ticker-images/154x123.jpg" alt="" /></li>
+	<li><img style="left: 368px; top: 0;" src="ticker-images/183x246.jpg" alt="" /></li>
+	<li><img style="left: 368px; bottom: 0;" src="ticker-images/183x132.jpg" alt="" /></li>
+	<li><img style="left: 561px; top: 0;" src="ticker-images/286x123.jpg" alt="" /></li>
+	<li><img style="left: 561px; top: 133px;" src="ticker-images/138x115.jpg" alt="" /></li>
+	<li><img style="left: 561px; top: 258px;" src="ticker-images/138x132.jpg" alt="" /></li>
+	<li><img style="left: 708px; top: 133px;" src="ticker-images/139x256.jpg" alt="" /></li>
+	<li><img style="left: 857px; top: 0;" src="ticker-images/476x246.jpg" alt="" /></li>
+	<li><img style="left: 857px; bottom: 0;" src="ticker-images/140x132.jpg" alt="" /></li>
+	<li><img style="left: 1007px; bottom: 0;" src="ticker-images/202x132.jpg" alt="" /></li>
+	<li><img style="left: 1217px; bottom: 0;" src="ticker-images/116x132.jpg" alt="" /></li>
+	<li><img style="left: 1343px; top: 0;" src="ticker-images/183x123.jpg" alt="" /></li>
+	<li><img style="left: 1343px; bottom: 0;" src="ticker-images/183x255.jpg" alt="" /></li>-->

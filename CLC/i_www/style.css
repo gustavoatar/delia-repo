@@ -156,6 +156,96 @@ nav.mainNav {
 			list-style: inside url(images/bullet.png);
 			padding: 2px;
 		}
+
+/******* SUBPAGE *******/
+.headerImg {
+	box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.47);
+	 -moz-box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.47);
+	 -webkit-box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.47);
+	 z-index: 99;
+}
+
+#subPageContent {
+	background: #d0d0d0; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QwZDBkMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2YzZjMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #d0d0d0 0%, #f3f3f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d0d0d0), color-stop(100%,#f3f3f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d0d0d0 0%,#f3f3f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d0d0d0 0%,#f3f3f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d0d0d0 0%,#f3f3f3 100%); /* IE10+ */
+	background: linear-gradient(top,  #d0d0d0 0%,#f3f3f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0d0d0', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-8 */
+	color: #1e4164;
+}
+	#subPageContent p {
+		color: #1e4164;
+		font-size: 13px;
+		font-family: Arial, Helvetica;
+		
+	}
+		#subPageContent H1 {
+			color: #1e4164;
+			font-family: "Myriad Pro", "Oxygen", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+			font-size: 40px;
+		}
+		#subPageContent H2 {
+			color: #1e4164;
+			font-family: "Myriad Pro", "Oxygen", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+			font-size: 26px;
+		}
+		#subPageContent H3 {
+			color: #1e4164;
+			font-family: "Myriad Pro", "Oxygen", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+			font-size: 22px;
+			margin-bottom: 15px;
+			font-weight: 400;
+		}
+	.mainContent {
+		padding-bottom: 75px;	
+	}
+		.mainContent ul {
+			margin-top: 20px;
+			margin-left: 55px;
+			margin-bottom: 20px;
+			font-size: 13px;
+			font-family: Arial, Helvetica;
+		}
+			.mainContent ul li {
+				list-style: outside;
+				list-style-image: url(images/list_bullet.png);
+			}
+.subNav {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#subPageContent .subNav ul {
+		margin: 0;
+	}
+	#subPageContent .subNav ul li {
+		float: left;
+		height: 87px;
+		
+		border-right: 1px solid #bfbfbf;
+	}
+		#subPageContent .subNav ul li:last-of-type {
+			border-right: none;
+		}
+		.subNav ul li.active {
+			background-image: url(images/subnav_active_bg.jpg);
+		}
+		#subPageContent .subNav ul li a {
+			padding: 20px;
+			padding-top: 30px;
+			display: block;
+			color: #717171;
+			font-size: 18px;
+			font-family: "Myriad Pro", "Oxygen", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+		}
+			#subPageContent .subNav ul li a:hover {
+				color: #0083a2;
+			}
+
 /******* FOOTER *******/
 .footerWrapper {
 	background-image: url(images/footerbg.jpg);
