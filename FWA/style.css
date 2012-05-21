@@ -15,6 +15,14 @@ h2 {
 	font-weight: 700;
 }
 
+:hover {
+	outline: none;
+}
+
+:focus {
+	outline: none;
+}
+
 .mainContainer {
 	background-image: url(images/greenglow.jpg);
 	background-repeat: no-repeat;
@@ -86,14 +94,24 @@ p.footerText {
 	#fwa {
 		background-image: url(images/freedomwealthslide.jpg);
 	}
-		.fwaText {
+	#fda {
+		background-image: url(images/freedomdivorceslide.jpg);
+	}
+	#flf {
+		background-image: url(images/freedomlegalslide.jpg);
+		background-repeat: no-repeat;
+	}
+	#fis {
+		background-image: url(images/freedomincomeslide.jpg);
+	}
+		.text {
 			position: absolute;
 			left: 145px;
 			top: 210px;
 			width: 500px;
 			line-height: 20px;
 		}
-		.fwaVisit {
+		.visit {
 			position: absolute;
 			top: 375px;
 			left: 570px;

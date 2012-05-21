@@ -1,0 +1,621 @@
+/*
+Theme Name: Ansell Grimm & Aaron Mobile Theme
+Description: A custom mobile theme built for Ansell Grimm & Aaron.
+Version: 1.0
+Author: Vishal Patel
+Tags: custom, ansell, grimm, template, html5
+
+
+*/
+
+/******* FONTS *******/
+
+@font-face {
+    font-family: 'HypatiaSansProRegular';
+    src: url('font/hypatiasanspro-regular-webfont.eot');
+    src: url('font/hypatiasanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/hypatiasanspro-regular-webfont.woff') format('woff'),
+         url('font/hypatiasanspro-regular-webfont.ttf') format('truetype'),
+         url('font/hypatiasanspro-regular-webfont.svg#HypatiaSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HypatiaSansProSemibold';
+    src: url('font/hypatiasanspro-semibold-webfont.eot');
+    src: url('font/hypatiasanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/hypatiasanspro-semibold-webfont.woff') format('woff'),
+         url('font/hypatiasanspro-semibold-webfont.ttf') format('truetype'),
+         url('font/hypatiasanspro-semibold-webfont.svg#HypatiaSansProSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #58585a;
+	margin-top: 10px;
+}
+.container {
+	margin-top: 25px;
+}
+
+.margless {
+	margin: 0 !important;
+}
+
+.clear {
+	clear: both;
+}
+
+/******* MAIN STYLES *******/
+
+a:link {
+	color: #00395a;
+}
+
+a:hover {
+	color: #00395a;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #3893bc;
+}
+
+:focus {
+    outline: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+/******* HEADINGS *******/
+
+h1 {
+	font-size: 24px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #00395a;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+	h1.top {
+		margin-top: 0px;
+	}
+
+h2 {
+	font-size: 20px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #00395a;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #00395a;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+/******* BUTTONS *******/
+.readmoreButton {
+	font-size: 15px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #0578aa;
+	text-align: left;
+	background-image: url(images/buttonbg.png);
+	height: 19px;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	width: 80px;
+}
+	.readmoreButton a:hover {
+		color: #00395a;
+		text-decoration: none;
+	}
+.blueButton {
+	font-size: 16px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #fff;
+	text-align: center;
+	background-image: url(images/bluebuttonbg.jpg);
+	height: 37px;
+	width: 110px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.blueButton:hover {
+	background-image: url(images/bluebuttonbg_over.jpg);
+}
+
+.blueButton a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+/******* HEADER *******/
+nav.headerNav {
+	font-size: 11px;
+	text-align: left;
+	font-family: HypatiaSansProSemibold, Helvetica, Arial;
+	color: #58585a;
+	display: inline;
+}
+	nav.headerNav ul {
+		margin: 0;
+		display: inline;
+		margin-right: 5px;
+	}
+	nav.headerNav li {
+		list-style: none;
+		display: inline;
+	}
+	nav.headerNav a {
+		color: #000;
+		
+	}
+	.headerRight {
+		text-align:right;
+	}
+	.headerRight img {
+		vertical-align: baseline;
+	}
+	form#searchBox input[type="text"] {
+		width: 185px;
+		height: 12px;
+		background-color: #f2f2f2;
+	}
+	form#searchBox input[type="submit"] {
+		background-image: url(images/searchbutton.jpg);
+		height: 22px;
+		width: 22px;
+	}
+	
+.menu-header-navigation-menu-container{
+	display: inline;
+	vertical-align: top;
+}
+	p.tagline {
+		font-size: 14px;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		font-family: HypatiaSansProRegular, Helvetica, Arial;
+	}
+ul.mainmenu li {
+	position: relative;
+}	
+.navslidedown {
+	position:absolute;
+	width:495px;
+	display:none;
+	opacity:0.95;
+	left: 0;
+	
+	padding: 10px;
+	font-size:10px;
+	background: #104f74; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzEwNGY3NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2NjhmYWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #104f74 0%, #668faa 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#104f74), color-stop(100%,#668faa)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #104f74 0%,#668faa 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #104f74 0%,#668faa 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #104f74 0%,#668faa 100%); /* IE10+ */
+	background: linear-gradient(top,  #104f74 0%,#668faa 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#104f74', endColorstr='#668faa',GradientType=0 ); /* IE6-8 */
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.65) inset;
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.65) inset;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.65) inset;
+}
+	#defaultSubMenu {
+		width: 100%;
+	}
+	#defaultSubMenu.navslidedown ul {
+		text-align: left;
+		padding-left: 10px;
+		margin-top: 10px;
+		margin-left: 0;
+		height: 100%;
+	}
+	#defaultSubMenu.navslidedown ul li {
+		border: none;
+		font-size: 14px;
+		padding: 5px;
+		text-align: left;
+		display: block;
+	}
+	#defaultSubMenu.navslidedown ul li a {
+		padding: 0;
+	}
+.navslidedown ul.tabs {
+	width: 145px;
+	text-align: left;
+	margin-left: 15px;
+	margin-top: 30px;
+	font-size: 18px;
+	float: left;
+}
+	.navslidedown ul.tabs li {
+		display: block;
+		padding: 0;
+		border-right: none;
+		width: 130px;
+		height: 25px;
+		vertical-align: middle;
+		
+	}
+		.navslidedown ul.tabs li a {
+			display: block;
+			padding: 7px;
+			color: #fff;
+			border: none;
+		}
+		.navslidedown ul.tabs li.active a {
+			color: #b5e3ff;
+		}
+.navslidedown ul.attorneyList {
+	margin-top: 30px;
+	width: 300px;
+	text-align: left;
+	float: right;
+	text-align: justify;
+	padding-right: 20px;
+}
+	.navslidedown ul.attorneyList li {
+		font-size: 14px;
+		font-family: Arial, Helvetica;
+		padding: 0;
+		text-transform: none;
+		border: none;
+	}
+	.navslidedown ul.attorneyList li a {
+		font-size: 14px;
+		font-family: Arial, Helvetica;
+		padding: 0;
+		text-transform: none;
+	}
+	
+		
+/******* CONTENT *******/
+.leftContent {
+	
+}
+
+.leftContent .blurb .blurbText p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	font-weight: 700;
+	width: 165px;
+}
+	.leftContent .blurb .blurbText p a {
+		color: #58585a;
+	}
+	.leftContent .blurb {
+		margin-bottom: 15px;
+		height: 100px;
+	}
+	.leftContent .blurb img {
+		padding-right: 10px;
+	}
+	.leftContent .blurbText {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.readmoreButton a {
+		display: block;
+	}
+.middleContent p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+}
+
+.rightContent p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+}
+	.rightContent {
+		margin-left: 40px;
+	}
+	
+	
+/******* SUBBPAGE *******/
+
+.content {
+	padding-top: 35px;
+	padding-bottom: 100px;
+}
+	.content section p {
+		font-family: Arial, Helvetica;
+		font-size: 12px;
+		font-weight: 400;
+		width: 360px;
+	}
+	.sidebarContent {
+		
+	}
+		.subpageFeaturedImg {
+			text-align: right;
+		}
+/******* FOOTER *******/
+footer{
+	background-color: #f5f5f5;
+	margin-top: 20px;
+}
+.footer {
+	margin: 0 auto;
+	width: 940px;
+	font-size: 12px;
+	font-family: Arial, Helvetica;
+	height: 240px;
+}
+	.footer li {
+		list-style: none;
+	}
+	.footer .footerMiddle {
+		margin-left: 300px;
+	}
+	.footer .footerLeft, .footer .footerRight {
+
+	}
+	.footer .footerLeft p, .footer .footerRight p {
+		text-align: left;
+	}
+	
+	.footer .footerLeft p {
+		margin-bottom: 0;
+	}
+
+/******* SEARCH RESULTS *******/
+.read_more {
+	color: #00395a;
+	font-size: 13px;
+}
+
+.searchExcerpt {
+	color: #58585a;
+	font-size: 12px;
+	font-family: Arial, Helvetica;
+}
+
+/******* ATTORNEY PROFILE PAGE ******/
+p.office {
+	color: #00395a;
+	font-size: 16px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+}
+p.number {
+	margin: 0;
+}
+
+.profilePicture {
+	margin-bottom: 35px;
+}
+
+.subMenu {
+	margin-top: 0px;
+}
+
+.subMenu ul {
+	list-style: none;
+	margin: 0;
+	width: 300px;
+	background-color: #6589a0;
+	background-image: url(images/attorneysubmenubg.jpg);
+	background-repeat: repeat-x;
+}
+.subMenu ul.tabs {
+	background-image: url(images/attorneysubmenutabsbg.jpg);
+	background-repeat: repeat-x;
+}
+	.subMenu ul li {
+		vertical-align: middle;
+		font-size: 16px;
+		font-family: HypatiaSansProRegular, Helvetica, Arial;
+		color: #fff;
+		border-bottom: 1px solid #adc4d3;
+	}
+		.subMenu ul li.active {
+			background-image: none;
+			background-color: #0f4a6d;
+		}
+		.subMenu ul li a {
+			color: #fff;
+			display: block;
+			padding: 13px;
+		}
+/******* ATTORNEY LANDING PAGE *******/
+#attorneyLanding ul {
+	list-style: none;
+	margin: 0;
+	margin-top: 15px;
+}
+	#attorneyLanding ul li a {
+		font-size: 14px;
+		color: #00395a;
+	}
+.memorium {
+	color: #58585a;
+	font-family: Arial, Helvetica;
+	font-size: 14px;
+}
+
+/******* WEBTICKER *******/
+#tickerbg {
+	background-image: url(images/fullwebticker.jpg);
+	height: 388px;
+	width: 1532px;
+}
+
+#scrollerWrapper {
+	box-shadow: 0px 0px 10px #444;
+	-moz-box-shadow: 0px 0px 10px #444;
+	-webkit-box-shadow: 0px 0px 10px #444;
+}
+
+/******* PRACTICE AREA SUBPAGE *******/
+.practiceAreaTitle {
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	text-transform: uppercase;
+}
+
+.practiceAreaShort {
+	background-color: #6d9ab6;
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 236px;
+	overflow: hidden;
+}
+	.practiceAreaShort h2 {
+		color: #00395a;
+		font-size: 20px;
+		font-family: HypatiaSansProRegular, Helvetica, Arial;
+		margin-top: 10px;
+		line-height: 20px;
+		padding-right: 20px;
+	}
+	.practiceAreaShort p {
+		color: #ffffff;
+		font-size: 14px;
+		font-family: HypatiaSansProRegular, Helvetica, Arial;
+		width: 420px;
+		margin-bottom: 10px;
+	}
+.practiceAreaAttorney {
+	
+}
+
+/******* PRACTICE AREA LANDING PAGE *******/
+.boxgrid{
+	width: 215px;
+	height: 160px;
+	margin:10px;
+	float:left;
+	background:#fff;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0px 6px 5px #444;
+	-webkit-box-shadow: 0px 6px 5px #444;
+	-moz-box-shadow: 0px 6px 5px #444;
+}
+.boxgrid img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}
+
+.boxcaption{
+	float: left;
+	position: absolute;
+	background: #000;
+	height: 50px;
+	width: 100%;
+	opacity: .8;
+	/* For IE 5-7 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	/* For IE 8 */
+	-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	padding: 5px;
+ 	}
+ 	.boxcaption h3 {
+ 		color: #fff;
+ 		text-transform: uppercase;
+ 		margin: 0;
+ 		font-size: 12px;
+ 	}
+ 	
+ .captionfull .boxcaption {
+ 	top: 127px;
+ 	left: 0;
+ }
+ .caption .boxcaption {
+ 	top: 60px;
+ 	left: 0;
+ }
+ 
+/******* MOBILE *******/
+nav.mobileNav {
+	width: 320px;
+	height: 77px;
+	background-image: url(images/mobile/m_nav_bg.jpg);
+	margin-top: 20px;
+}
+	nav.mobileNav ul {
+		width: 255px;
+		margin: 0 auto;
+		padding-top: 20px;	
+	}
+	nav.mobileNav ul li {
+		list-style: none;
+		display: inline;
+		
+	}
+		nav.mobileNav ul li:first-child {
+			padding-right: 28px;
+		}
+		nav.mobileNav ul li a {
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 14px;
+			padding-bottom: 10px;
+			padding-right: 20px;
+			display: inline-block;
+		}
+
+.container-fluid {
+	padding: 0;
+}
+ 
+/* ****** FORM ********/
+form.wpcf7-form p {
+	width: 100%;
+}
+/* == COMMENTS == */
+
+article[id*=comment-] {
+	margin: 15px 0;
+	padding: 10px;
+	}
+	article[id*=comment-] h4 {
+		margin: 0;
+		}
+	.alt {
+		border: 1px solid #ddd;
+		background: #eee;
+		}
+form[method=post] label {
+	display: inline;
+	}
+form[method=post] input {
+	margin: 2px 0 12px 0;
+	display: inline;
+	float: right;
+	}
+form[method=post] textarea, form[method=post] select {
+	display: inline;
+	float: right;
+}
+form[method=post] textarea {
+	max-width: 210px;
+	min-width: 210px;
+	height: 120px;
+}

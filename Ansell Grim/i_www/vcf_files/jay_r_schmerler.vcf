@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Schmerler;Jay R.;;;
+FN:Jay R. Schmerler
+ORG:Ansell Grimm & Aaron\, P.C.;
+EMAIL;type=INTERNET;type=WORK;type=pref:jrs@ansellgrimm.com
+TEL;type=WORK;type=pref:(732) 922-1000
+TEL;type=WORK;type=FAX:(732) 922-6161
+item1.TEL:(732) 922-1000
+item1.X-ABLabel:_$!<Other>!$_
+item2.ADR;type=WORK;type=pref:;;1500 Lawrence Ave.;Ocean Township;NJ;07712;United States of America
+item2.X-ABADR:us
+item3.URL;type=pref:http\://www.ansellzaro.com
+item3.X-ABLabel:_$!<HomePage>!$_
+item4.URL:http\://www.ansellgrimm.com/
+item4.X-ABLabel:_$!<HomePage>!$_
+X-ABUID:E705DB61-771E-4E89-B474-9EEE03228CAE\:ABPerson
+END:VCARD

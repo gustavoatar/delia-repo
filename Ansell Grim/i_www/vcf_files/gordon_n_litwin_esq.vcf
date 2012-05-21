@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Litwin;Gordon;N.;;Esq.
+FN:Gordon N. Litwin Esq.
+ORG:Ansell Grimm & Aaron, P.C.
+NOTE;ENCODING=QUOTED-PRINTABLE:=0D=0A=0D=0A
+TEL;WORK;VOICE:(973) 642-1801
+TEL;WORK;FAX:(973) 642-0310
+ADR;WORK;ENCODING=QUOTED-PRINTABLE:;;60 Park Place=0D=0ASuite 1114;Newark;NJ;07102;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:60 Park Place=0D=0ASuite 1114=0D=0ANewark, NJ 07102=0D=0AUnited States of Am=
+erica
+URL;WORK:http://www.ansellgrimm.com/
+EMAIL;PREF;INTERNET:gordon.litwin@verizon.net
+REV:20100429T155021Z
+END:VCARD

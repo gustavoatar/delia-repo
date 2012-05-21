@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Petillo;Lynne
+FN:Lynne Petillo
+ORG:Ansell Grimm & Aaron, P.C.
+TEL;WORK;VOICE:(732) 922-1000
+TEL;WORK;FAX:(732) 922-8989
+ADR;WORK:;;1500 Lawrence Ave.;Ocean Township;NJ;07712;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1500 Lawrence Ave.=0D=0AOcean Township, NJ 07712=0D=0AUnited States of Ameri=
+ca
+URL;WORK:http://www.ansellgrimm.com/
+EMAIL;PREF;INTERNET:lpetillo@ansellgrimm.com
+REV:20111220T201322Z
+END:VCARD

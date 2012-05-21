@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Scroble;Melanie;J.
+FN:Melanie J. Scroble
+ORG:Ansell Grimm & Aaron, P.C.
+TEL;WORK;VOICE:(973) 247-9000
+TEL;WORK;FAX:(973) 247-9199
+ADR;WORK:;;341 Broad St.;Clifton;NJ;07013;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:341 Broad St.=0D=0AClifton, NJ 07013=0D=0AUnited States of America
+URL;WORK:http://www.ansellgrimm.com/
+EMAIL;PREF;INTERNET:mjs@ansellgrimm.com
+REV:20100429T154349Z
+END:VCARD

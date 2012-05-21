@@ -1,0 +1,288 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+/******* H2,H2,H3 TAGS *******/
+h1 {
+	color: #163eb4;
+	font-size: 30px;
+	font-family: Times New Roman, Arial, Helvetica;
+	font-weight: 400;
+}
+
+h2 {
+	color: #163eb4;
+	font-size: 24px;
+	font-family: Times New Roman, Arial, Helvetica;
+	font-weight: 400;
+}
+
+h3 {
+	color: #4c4c4c;
+	font-size: 18px;
+	font-family: Times New Roman, Arial, Helvetica;
+	font-weight: 700;
+}
+
+/******* BUTTONS *******/
+.button {
+	background-image: url(images/button_bg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	padding: 8px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	height: 39px;
+}
+
+
+/****** HEADER *******/
+.homePage {
+	background-image: url(images/home_page_ph.jpg);
+	background-repeat: no-repeat;
+	box-shadow: 0px 6px 10px #444;
+	-moz-box-shadow: 0px 6px 10px #444;
+	-webkit-box-shadow: 0px 6px 10px #444;
+}
+	h1.home {
+		font-family: Times New Roman, Arial, Helvetica;
+		font-size: 28px;
+		margin-bottom: 20px;
+		margin-top: 15px;
+		font-weight: 400;
+		color: #fff;
+	}
+.mainNav {
+	background-image: url(images/main_nav_bg.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding: 10px 0;
+	z-index: 99;
+}
+	.mainNav ul {
+		font-size: 16px;
+		text-align: center;
+	}
+		.mainNav ul li {
+			display: inline;
+		}
+			.mainNav ul li a {
+				color: #fff;
+				text-decoration: none;
+				padding: 10px;
+			}
+img.logo {
+	box-shadow: 1px 3px 3px #bebebe;
+	-webkit-box-shadow: 1px 3px 3px #bebebe;
+	-moz-box-shadow: 1px 3px 3px #bebebe;
+	margin-top: 50px;
+}
+
+.transBox {
+	background-color: #000;
+	-moz-opacity: 0.70;
+	opacity: 0.70;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+	margin-top: 220px;
+	color: #fff;
+	font-size: 15px;
+	line-height: 22px;
+	padding-top: 20px;
+	height: 204px;
+}
+	.transBox .text {
+		padding-left: 40px;
+	}
+		.transBox .text p {
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+	.transBlueBox {
+		background-color: #102d93;
+		-moz-opacity: 0.70;
+		opacity: 0.70;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+		margin-top: 130px;
+		color: #fff;
+		width: 239px;
+		float: left;
+		display: inline;
+		font-size: 13px;
+		font-weight: 700;
+		height: 314px;
+		padding-left: 25px;
+	}
+		.transBlueBox ul li {
+			padding: 10px 0;
+		}
+			.transBlueBox ul li a {
+				text-decoration: none;
+				color: #fff;
+			}
+/******* HOMEPAGE *******/
+.homeContent {
+	padding-top: 25px;
+	padding-bottom: 45px;
+}
+	.homeContent ul {
+		
+	}
+		.homeContent ul li {
+			list-style-image: url(images/bullet_img.png);
+			list-style-position: inside;
+			padding: 15px;
+			padding-left: 0;
+			margin-right: 30px;
+			border-bottom: 2px solid #dadada;
+			float: left;
+			width: 210px;
+		}
+			.homeContent ul li a {
+				text-decoration: none;
+				color: #000;
+				padding: 9px;
+				padding-left: 0;	
+							
+			}
+/******* CONTENT *******/
+.content {
+	font-size: 14px;
+	margin-bottom: 40px;
+	color: #4c4c4c;
+}
+	.content p {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.content a {
+		color: #153bab;
+	}
+		.content a:hover {
+			color: #011a64;
+			text-decoration: none;
+		}
+		.content a:visited {
+			color: #163eb4;
+		}
+		.content a.button {
+			color: #fff;
+		}
+	.content ul {
+		margin-left: 20px;
+	}
+		.content ul li {
+			list-style-image: url(images/bullet_img.png);
+			list-style-position: outside;
+			
+		}
+			.content ul li a {
+				
+			}
+/******** SUBPAGE *******/
+.subPage {
+	background-image: url(images/subpage_header_ph.jpg);
+	background-repeat: no-repeat;
+	box-shadow: 0px 6px 10px #444;
+	-moz-box-shadow: 0px 6px 10px #444;
+	-webkit-box-shadow: 0px 6px 10px #444;
+	height: 292px;
+	margin-bottom: 40px;
+}
+
+/******** SUBNAV *******/
+.subNav {
+	
+}
+	.subNav ul {
+		
+	}
+		.subNav ul li {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.subNav ul li:first-child {
+			padding-top: 0;
+		}
+			.subNav ul li a {
+				color: #4c4c4c;
+			}
+/******* PRACTICE LANDING PAGE *******/
+.practiceLanding {
+	
+}
+	.practiceLanding ul {
+		
+	}
+		.practiceLanding ul li {
+			padding: 15px;
+			margin-right: 30px;
+			border-bottom: 2px solid #dadada;
+			float: left;
+			width: 210px;
+			padding-left: 0;
+		}
+			.practiceLanding ul li a {
+				color: #000;
+			}
+/******* ATTORNEY PROFILE *******/
+.name {
+	margin-top: 65px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	display: block;
+	padding-bottom: 5px;
+	margin-left: 20px;
+}
+.position {
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.contact {
+	color: #fff;
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+/******* FORMS *******/
+label {
+	float: left;
+	width: 200px;
+}
+/******* FOOTER *******/
+.footerWrapper {
+	background-image: url(images/footer_bg.jpg);
+	height: 393px;
+	color: #fff;
+	background-color: #102d93;
+	font-size: 12px;
+	padding-top: 15px;
+}
+	.footerWrapper h4 {
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	.footerWrapper p {
+		line-height: 17px;
+		margin-bottom: 15px;
+	}
+	.footerWrapper a {
+		color: #fff;
+		text-decoration: none;
+		font-weight: 700;
+	}
+.copyright {
+	margin-top: 25px;
+}
+.footerLinks {
+	text-align: right;
+	margin-top: 25px;
+}

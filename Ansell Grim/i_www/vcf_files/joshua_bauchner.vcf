@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Bauchner;Joshua;S.;;Esq.
+FN:Joshua S. Bauchner Esq.
+ORG:Ansell Grimm & Aaron\, P.C.;
+EMAIL;type=INTERNET;type=WORK;type=pref:jb@ansellgrimm.com
+TEL;type=WORK;type=pref:(732) 922-1000
+TEL;type=WORK;type=FAX:(732) 922-6161
+item1.ADR;type=WORK;type=pref:;;1500 Lawrence Ave.;Ocean Township;NJ;07712;United States of America
+item1.X-ABADR:us
+item2.URL;type=pref:http\://www.ansellgrimm.com/
+item2.X-ABLabel:_$!<HomePage>!$_
+X-ABUID:46D979D5-95B5-44CF-A945-9B5C458E4D90\:ABPerson
+END:VCARD

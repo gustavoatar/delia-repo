@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Falvo;Peter;S.;;Jr. Esq.
+FN:Peter S. Falvo Jr. Esq.
+ORG:Ansell Grimm & Aaron, P.C.
+NOTE;ENCODING=QUOTED-PRINTABLE:=0D=0A=0D=0A
+TEL;WORK;VOICE:(732) 922-1000
+TEL;WORK;FAX:(732) 922-6161
+ADR;WORK:;;1500 Lawrence Ave.;Ocean Township;NJ;07712;United States of America
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:1500 Lawrence Ave.=0D=0AOcean Township, NJ 07712=0D=0AUnited States of Ameri=
+ca
+URL;WORK:http://www.ansellgrimm.com/
+EMAIL;PREF;INTERNET:psf@ansellgrimm.com
+REV:20100429T154208Z
+END:VCARD

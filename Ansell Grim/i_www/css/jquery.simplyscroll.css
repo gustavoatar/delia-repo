@@ -155,11 +155,12 @@ Note all DIVs are generated and should not be hard-coded
 			
 		}
 		
-		.simply-scroll .simply-scroll-list li {
+		.simply-scroll .simply-scroll-list div {
 			float: left;
 			position: relative;
+			
 		}
-		.simply-scroll .simply-scroll-list li img {}
+		.simply-scroll .simply-scroll-list div img {}
 	
 	.simply-scroll .simply-scroll-btn {}
 	

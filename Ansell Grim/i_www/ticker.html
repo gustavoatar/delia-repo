@@ -25,49 +25,113 @@
 	background:#F2F2F2;
 	width: 940px;
 }*/
-#scroller li img {
-	border: 5px solid #000;
+#scroller div img {
+	
 /*	position: absolute;*/
+}
+#tickerbg {
+	background-image: url(images/fullwebticker.jpg);
+	height: 388px;
+	width: 1532px;
+}
+
+.test {
+	display: none;
+	position: relative;
 }
 
 </style>
 <link rel="stylesheet" href="css/jquery.simplyscroll.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 	<script src="js/jquery.simplyscroll.min.js" type="text/javascript"></script>
+	<script src="js/jquery.imagemapster.js" type="text/javascript"></script>
 <script type="text/javascript">
+	 
 	(function($) {
 		$(function() { //on DOM ready
 			$("#scroller").simplyScroll({
 	        	auto: true,
-				speed: 15
+				speed: 1
 			});
 		});
 	})(jQuery);
 </script>
+<script type="text/javascript">$(function() {
+	
+//		$('.image-scroll').maphilight({
+//			fill: true,
+//			fillColor: '000000',
+//			fillOpacity: 0.5,
+//			stroke: true,
+//			strokeColor: 'ffffff',
+//			strokeOpacity: .1,
+//			strokeWidth: 0,
+//			fade: true,
+//			alwaysOn: false,
+//			neverOn: false,
+//			groupBy: false,
+//			wrapClass: true,
+			// plenty of shadow:
+//			shadow: true,
+//			shadowX: 0,
+//			shadowY: 0,
+//			shadowRadius: 6,
+//			shadowColor: '000000',
+//			shadowOpacity: 0.8,
+//			shadowPosition: 'outside',
+//			shadowFrom: false
+//		});
+//		
+//		$('area[href="#1"]').mouseover(function() {
+//		    context.clip();
+//		}).mouseout(function() {
+//		    $('.test').hide();
+//		   
+//		})
+		var image = $('.image-scroll');
+			   	
+			   image.mapster(
+		       {
+		       		fillOpacity: 0.5,
+		       		fillColor: "000000",
+		       		strokeColor: "ffffff",
+		       		strokeOpacity: 0.8,
+		       		strokeWidth: 0,
+		       		stroke: true,
+		            showToolTip: false,
+		            fadeDuration: 400,
+		            altImage: "images/fullwebticker_alt.jpg"
+		           
+		        });		
+	});
+	</script>
 </script>
 </head>
 <body>
 	<div id="scrollerWrapper">
 		
 		<ul id="scroller">
-			<li style="left: 0; top: 0;"><img src="ticker-images/194x123.jpg" alt="" /></li>
-			<li style="left: -204px; bottom: -133px;"><img src="ticker-images/358x255.jpg" alt="" /></li>
-			<li style="left: -368px; top: 0;"><img src="ticker-images/154x123.jpg" alt="" /></li>
-			<li style="left: -368px; top: 0;"><img src="ticker-images/183x246.jpg" alt="" /></li>
-			<li style="left: -561px; bottom: -256px;"><img src="ticker-images/183x132.jpg" alt="" /></li>
-			<li style="left: -561px; top: 0;"><img src="ticker-images/286x123.jpg" alt="" /></li>
-			<li style="left: -857px; top: 133px;"><img src="ticker-images/138x115.jpg" alt="" /></li>
-			<li style="left: -1005px; top: 258px;"><img src="ticker-images/138x132.jpg" alt="" /></li>
-			<li style="left: -1006px; top: 133px;"><img src="ticker-images/139x256.jpg" alt="" /></li>
-			<li style="left: -1006px; top: 0;"><img src="ticker-images/476x246.jpg" alt="" /></li>
-			<li style="left: -1492px; bottom: -256px;"><img src="ticker-images/140x132.jpg" alt="" /></li>
-			<li style="left: -1492px; bottom: -256px;"><img src="ticker-images/202x132.jpg" alt="" /></li>
-			<li style="left: -1494px; bottom: -256px;"><img src="ticker-images/116x132.jpg" alt="" /></li>
-			<li style="left: -1494px; top: 0;"><img src="ticker-images/183x123.jpg" alt="" /></li>
-			<li style="left: -1687px; bottom: -133px;"><img src="ticker-images/183x255.jpg" alt="" />
+			<div id="tickerbg"><img class="image-scroll" usemap="#scrolling-images" src="images/fullwebticker.jpg" alt="" />
+			<map id="_Image-Maps_5201204301110091" name="scrolling-images">
+			<area shape="rect" coords="0,130,360,387" href="#1" alt="image" title="image"    />
+			<area shape="rect" coords="0,0,194,124" href="#2" alt="image" title="image"    />
+			<area shape="rect" coords="204,0,358,124" href="#3" alt="image" title="image"    />
+			<area shape="rect" coords="367,0,551,248" href="#4" alt="image" title="image"    />
+			<area shape="rect" coords="367,254,551,387" href="#5" alt="image" title="image"    />
+			<area shape="rect" coords="560,0,847,124" href="#6" alt="image" title="image"    />
+			<area shape="rect" coords="560,131,699,247" href="#7" alt="image" title="image"    />
+			<area shape="rect" coords="560,256,699,387" href="#8" alt="image" title="image"    />
+			<area shape="rect" coords="708,131,847,387" href="#9" alt="image" title="image"    />
+			<area shape="rect" coords="856,0,1333,248" href="#10" alt="image" title="image"    />
+			<area shape="rect" coords="855,252,997,387" href="#11" alt="image" title="image"    />
+			<area shape="rect" coords="1005,252,1208,387" href="#12" alt="image" title="image"    />
+			<area shape="rect" coords="1216,254,1332,387" href="#13" alt="image" title="image"    />
+			<area shape="rect" coords="1342,0,1525,124" href="#14" alt="image" title="image"    />
+			<area shape="rect" coords="1342,131,1525,387" href="#15" alt="image" title="image"    />
+			</map>
+			</div>
 		</ul>
 	</div>	
-
 </body>
 </html>
 <!--<li style="left: 0; top: 0;"><img src="ticker-images/194x123.jpg" alt="" /></li>

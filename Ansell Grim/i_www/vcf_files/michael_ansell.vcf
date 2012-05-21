@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Ansell;Michael;;;Esq.
+FN:Michael Ansell Esq.
+ORG:Ansell Grimm & Aaron\, P.C.;
+EMAIL;type=INTERNET;type=WORK;type=pref:mha@ansellgrimm.com
+TEL;type=WORK;type=pref:(732) 922-1000
+TEL;type=WORK;type=FAX:(732) 922-6161
+item1.ADR;type=WORK;type=pref:;;1500 Lawrence Ave.;Ocean Township;NJ;07712;United States of America
+item1.X-ABADR:us
+item2.URL;type=pref:http\://www.ansellgrimm.com/
+item2.X-ABLabel:_$!<HomePage>!$_
+X-ABUID:7CE242C3-A6B7-4DC0-B24C-F73FB25E0B04\:ABPerson
+END:VCARD
